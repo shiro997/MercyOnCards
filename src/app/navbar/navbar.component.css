@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #ffd45d;
+  color: #805748;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-family: 'Uncial Antiqua', cursive;
+  font-size: 24px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #805748;
+  font-family: 'Uncial Antiqua', cursive;
+}
+
+.navbar-links li a:hover {
+  color: #a07c53;
+}

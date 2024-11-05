@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+.pub{
+  background: url("./assets/img/Gremio-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

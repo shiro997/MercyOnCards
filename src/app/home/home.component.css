@@ -1,0 +1,23 @@
+.home {
+  text-align: center;
+  color: #d7ccc8;
+  font-family: 'Cinzel', serif;
+}
+
+.btn {
+  background-color: #795548;
+  color: #d7ccc8;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-family: 'Uncial Antiqua', cursive;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #a1887f;
+}
+
+.table{
+  --bs-table-bg: #79554800!important;
+}
+

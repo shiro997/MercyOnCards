@@ -1,0 +1,81 @@
+.card-body {
+  background-color: #5d4037;
+  border: 2px solid #3e2723;
+  padding: 20px;
+  text-align: center;
+  color: #d7ccc8;
+  font-family: 'Cinzel', serif;
+}
+
+.card-body-rare {
+  background-color: #5291e4;
+  border: 2px solid #3e2723;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Cinzel', serif;
+}
+
+.card-body-uncommon {
+  background-color: #e0a245;
+  border: 2px solid #3e2723;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Cinzel', serif;
+}
+
+.card-body-mithyc {
+  background-color: #fd4a4a;
+  border: 2px solid #3e2723;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Cinzel', serif;
+}
+
+.card-item img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #3e2723;
+}
+
+.card-body button {
+  background-color: #795548;
+  color: #d7ccc8;
+  border: none;
+  padding: 10px 20px;
+  font-family: 'Uncial Antiqua', cursive;
+  cursor: pointer;
+}
+
+.card-body-uncommon button {
+  background-color: #92864e;
+  color: #d7ccc8;
+  border: none;
+  padding: 10px 20px;
+  font-family: 'Uncial Antiqua', cursive;
+  cursor: pointer;
+}
+
+.card-body-rare button {
+  background-color: #486b79;
+  color: #d7ccc8;
+  border: none;
+  padding: 10px 20px;
+  font-family: 'Uncial Antiqua', cursive;
+  cursor: pointer;
+}
+
+.card-body-mithyc button {
+  background-color: #b6564a;
+  color: #d7ccc8;
+  border: none;
+  padding: 10px 20px;
+  font-family: 'Uncial Antiqua', cursive;
+  cursor: pointer;
+}
+
+.card-body button:hover {
+  background-color: #a1887f;
+}

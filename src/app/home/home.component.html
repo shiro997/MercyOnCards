@@ -1,0 +1,21 @@
+<div class="home">
+  <h1>Bienvenido a MercyOnCards</h1>
+  <p>Explora nuestra colección de cartas</p>
+  <a routerLink="/shop" class="btn">Ir a la Tienda</a>
+  <table class="table table-borderless">
+    <tbody>
+      <tr>
+        <td style="width: 300px;"><app-card-item [card]="card1"></app-card-item></td>
+        <td style="width: 300px;"><app-card-item [card]="card2"></app-card-item></td>
+        <td style="width: 300px;"><app-card-item [card]="card3"></app-card-item></td>
+        <td style="width: 300px;"><app-card-item [card]="card4"></app-card-item></td>
+      </tr>
+      <!--<tr>
+        <td><app-card-item [card]="card4"></app-card-item></td>
+        <td><app-card-item [card]="card5"></app-card-item></td>
+        <td><app-card-item [card]="card6"></app-card-item></td>
+      </tr>-->
+    </tbody>
+  </table>
+  
+</div>
